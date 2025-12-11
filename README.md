@@ -1,9 +1,8 @@
 # Financial Data ETL Pipeline
 
-### Projet inspiré du livre *Financial Data Engineering* (Tamer Khraisha)
 
 Dans ce projet, je construit un petit ETL qui récupère des données financière de l’API **AlphaVantage**.  
-Le projet suit les principes du livre : découpage clair du workflow, nettoyage progressif, agrégations journalières, et stockage dans une base SQL.
+Le projet suit les principes du livre Financial Data Engineering de Tamer Khraisha: découpage clair du workflow, nettoyage progressif, agrégations journalières, et stockage dans une base SQL.
 
 Le pipeline tourne entièrement dans **Docker** (Mage, Postgres, pgAdmin) via :
 
